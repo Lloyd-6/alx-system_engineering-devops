@@ -1,2 +1,4 @@
 #!/bin/bash
-touch 'iamafile'  tmp
+file_type=$(file -b /tmp/iamafile)
+echo "The file type of /tmp/iamafile is $file_type"
+
