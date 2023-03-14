@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Local variables:"
+declare -p && declare -F
