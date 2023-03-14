@@ -1,2 +1,2 @@
 #!/bin/bash
-env' > list_env.sh
+env 
