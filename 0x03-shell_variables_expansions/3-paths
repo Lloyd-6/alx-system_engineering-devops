@@ -1,2 +1,2 @@
 #!/bin/bash
-echo \$PATH | tr ':' '\n' | wc -l" > count_dirs.sh
+echo $PATH | tr ':' '\n' | wc -l
